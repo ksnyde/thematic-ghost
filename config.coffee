@@ -5,11 +5,10 @@ exports.config =
   files:
     javascripts:
       joinTo:
-        'js/theme.js': /^app/
-        'js/vendor.js': /^(bower_components|vendor)/
+        'assets/js/theme.js': /^app/
+        'assets/js/vendor.js': /^(bower_components|vendor)/
 
     stylesheets:
       joinTo: 
-        'css/theme.css': /^app/
-        'css/vendor.css': /^(bower_components|vendor)/
-
+        'assets/css/theme.css': /^app/
+        'assets/css/vendor.css': /^(bower_components|vendor)/
